@@ -28,6 +28,7 @@ class CategoryController extends Controller
     }
 
 
+
     /**
      *  Store new category
      */

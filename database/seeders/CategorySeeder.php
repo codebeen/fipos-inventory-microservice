@@ -2,7 +2,6 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
@@ -15,14 +14,38 @@ class CategorySeeder extends Seeder
     {
         DB::table('categories')->insert([
             [
-                'category_name' => 'Ingredients',
-                'description' => 'Includes raw ingredients.',
+                'category_name' => 'Coffee Beans',
+                'description' => 'Includes raw ingredients such as Arabica and Robusta beans.',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
                 'category_name' => 'Packaging Materials',
-                'description' => 'Include packaging such as straws and.',
+                'description' => 'Includes packaging such as cups, lids, and straws.',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'category_name' => 'Dairy Products',
+                'description' => 'Milk, cream, and plant-based milk alternatives.',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'category_name' => 'Sweeteners',
+                'description' => 'Sugar, syrups, and artificial sweeteners.',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'category_name' => 'Tea Ingredients',
+                'description' => 'Tea leaves, tea bags, and matcha powder.',
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'category_name' => 'Flavoring and Toppings',
+                'description' => 'Syrups, cocoa powder, cinnamon, and whipped cream.',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
